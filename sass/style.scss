@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+@import "../node_modules/@sown/brand/sown.scss";
+
+// Update Bulma's global variables
+
+$primary: $sown-primary;
+$info: $sown-info;
+$success: $sown-success;
+$warning: $sown-warning;
+$danger: $sown-danger;
+$light: $sown-shade-light;
+$dark: $sown-shade-dark;
+
+$background: $sown-shade-light;
+$border: $sown-accent-dark;
+$border-hover: $sown-shade-dark;
+$text: $sown-shade-dark;
+// $text-light:;
+// $text-strong:;
+$code: $sown-danger;
+
+$link: $primary;
+
+$family-sans-serif: $sown-font-body;
+
+// Navbar
+$navbar-background-color: $sown-shade-light;
+$navbar-box-shadow-size: 0 2px 0 0;
+$navbar-box-shadow-color: $background; // Change me
+$navbar-height: 4.25rem;
+$navbar-padding-vertical: 1rem;
+$navbar-padding-horizontal: 2rem;
+$navbar-item-color: $sown-shade-dark;
+$navbar-item-hover-color: $sown-brand;
+
+
+@import "../node_modules/bulma/bulma.sass";
+
+
+

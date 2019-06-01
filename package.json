@@ -1,0 +1,18 @@
+{
+  "name": "@sown/website",
+  "version": "1.0.0",
+  "description": "SOWN Website",
+  "main": " ",
+  "repository": "git@github.com:sown/website.git",
+  "author": "Dan Trickey <dan@trickey.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "bulma": "^0.7.5",
+    "@sown/brand": "^1.1.0"
+  },
+  "scripts": {
+    "build": "node-sass --omit-source-map-url sass/style.scss css/style.css",
+    "watch": "npm run build -- --watch"
+  }
+}
